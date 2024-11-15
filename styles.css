@@ -1,0 +1,147 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+/* Header */
+header {
+    background-image: url('https://eatrightchicago.org/wp-content/uploads/2021/03/How-to-Use-Light-for-Stunning-Food-Photography.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('https://eatrightchicago.org/wp-content/uploads/2021/03/How-to-Use-Light-for-Stunning-Food-Photography.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 24px;
+}
+
+/* Menu Section */
+#menu {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/023/010/432/small_2x/the-side-angle-view-of-a-cup-of-coffee-on-the-table-with-ai-generated-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    border: 5px solid white;
+}
+
+#menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.menu-item p:last-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* About Section */
+#about {
+    padding: 40px 0;
+    background-image: url('https://media.istockphoto.com/id/1196531726/photo/blue-azure-turquoise-abstract-watercolor-background-for-textures-backgrounds-and-web-banners.jpg?s=612x612&w=0&k=20&c=4bv2ylvtgIJsqtQOIOLlvljRcLfgqc9F2x_OUCKjsn4=');
+    border: 5px solid white;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+#about p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    background-image: url('https://img.freepik.com/free-photo/blue-watercolor-gradient-background_95678-187.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
